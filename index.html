@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My first Svelte app</title>
+</head>
+
+<body>
+    <main></main>
+    <script src='publish/HelloWorld.js'></script>
+    <script>
+        var app = new HelloWorld({
+            target: document.querySelector('main'),
+            data: {
+                name: 'world'
+            }
+        });
+    </script>
+</body>
+
+</html>
