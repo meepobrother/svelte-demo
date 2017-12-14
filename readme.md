@@ -4,3 +4,7 @@ cd svelte-demo
 yarn
 yarn build
 ```
+
+
+https://svelte.technology/guide
+
